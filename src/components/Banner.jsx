@@ -16,8 +16,8 @@ const Banner = () => {
                         </span>
                     </div>
                 </div>
-                <h2 className='font-bold text-7xl'>Supercharge Your Digital Workflow</h2>
-                <p className='w-125'>Access premium AI tools, design assets, templates, and productivity
+                <h2 className='font-bold text-5xl lg:text-7xl'>Supercharge Your Digital Workflow</h2>
+                <p className='max-w-125'>Access premium AI tools, design assets, templates, and productivity
                     software—all in one place. Start creating faster today. Explore Products
                 </p>
                 <div className="flex gap-2 ">

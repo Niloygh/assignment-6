@@ -2,7 +2,8 @@ import './App.css'
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import Steps from './components/Steps'
-import Rating from './Rating'
+import PricingCard from './components/PricingCard'
+import Rating from './components/Rating'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       {/* tools section  */}
 
       <Steps />
+      <PricingCard />
       
 
     </>

@@ -8,7 +8,7 @@ const Navbar = () => {
                 <a className="font-bold ml-5 text-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">DigiTools</a>
             </div>
 
-            <div className="flex gap-3 font-medium text-[101727] ">
+            <div className="flex gap-5 font-medium text-[101727] ">
                 <p>Products</p>
                 <p>Features</p>
                 <p>Pricing</p>

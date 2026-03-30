@@ -4,7 +4,7 @@ import { LuBox, LuUser } from 'react-icons/lu';
 
 const Steps = () => {
     return (
-        <div className='container mx-auto my-25'>
+        <div className='container mx-auto py-25 px-5 bg-[#F9FAFC]'>
             <div className="text-center">
                 <h2 className='text-5xl font-bold mb-5'>Get Started in 3 Steps</h2>
                 <p >Start using premium digital tools in minutes, not hours.</p>

@@ -4,6 +4,8 @@ Description: “A5 DigiTools” is a simple and user-friendly online tools platf
 
 Technology : React.js, Tailwind CSS, DaisyUI, JavaScript (ES6+), React-Toastify (NPM Package), JSON (for product data)
 
+3 Features about out project.
+
 1. All-in-One Tool Collection – Multiple useful digital tools are available in one platform, saving time and effort.
 
 2. Fast & Efficient Performance – Tools work quickly, allowing users to complete tasks instantly without delays.

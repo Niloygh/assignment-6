@@ -1,16 +1,11 @@
-# React + Vite
+ProjectName : DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description: “A5 DigiTools” is a simple and user-friendly online tools platform where various essential digital tools are available in one place. It helps users quickly and efficiently complete small digital tasks (such as conversions, generation, or utility-based tasks).
 
-Currently, two official plugins are available:
+Technology : React.js, Tailwind CSS, DaisyUI, JavaScript (ES6+), React-Toastify (NPM Package), JSON (for product data)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. All-in-One Tool Collection – Multiple useful digital tools are available in one platform, saving time and effort.
 
-## React Compiler
+2. Fast & Efficient Performance – Tools work quickly, allowing users to complete tasks instantly without delays.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. User-Friendly Interface – Clean and simple design makes it easy for anyone to use without technical knowledge.

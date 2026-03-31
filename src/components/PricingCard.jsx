@@ -8,7 +8,7 @@ const PricingCard = () => {
                 <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 py-20">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 pt-20 ">
 
                 <div className="card max-w-96 shadow-md bg-[#F9FAFC]">
                     <div className="card-body">
@@ -37,7 +37,7 @@ const PricingCard = () => {
                             
                         </ul>
                         <div className="mt-auto pt-6">
-                            <button className="btn btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Subscribe</button>
+                            <button className="btn btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Get Started Free</button>
                         </div>
                     </div>
                 </div>
@@ -80,8 +80,8 @@ const PricingCard = () => {
                             </li>
                             
                         </ul>
-                        <div className="mt-auto pt-6">
-                            <button className="btn btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Subscribe</button>
+                        <div className="mt-auto pt-6 ">
+                            <button className="btn btn-block rounded-full bg-white"><span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>Start Pro Trial</span></button>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ const PricingCard = () => {
                             
                         </ul>
                         <div className="mt-auto pt-6">
-                            <button className="btn btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Subscribe</button>
+                            <button className="btn btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Contact Sales</button>
                         </div>
                     </div>
                 </div>

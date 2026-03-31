@@ -6,7 +6,7 @@ import { CiPlay1 } from 'react-icons/ci';
 
 const Banner = () => {
     return (
-        <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 my-20'>
+        <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-7 my-20'>
             <div className=" space-y-5">
                 <div className="flex">
                     <div className='bg-[#E1E7FF] py-1 px-3 rounded-full font-semibold '>

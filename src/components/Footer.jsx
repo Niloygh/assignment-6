@@ -53,7 +53,7 @@ const Footer = () => {
 
                 <div className="flex justify-between">
                     <p className='light-white'>&copy; 2026 Digitools. All rights reserved.</p>
-                    <div className="flex gap-5">
+                    <div className="flex gap-5 flex-wrap">
                         <p className='light-white'>Privacy Policy</p>
                         <p className='light-white'>Terms of Service</p>
                         <p className='light-white'>Cookies</p>

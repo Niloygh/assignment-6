@@ -10,7 +10,7 @@ const PricingCard = () => {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 py-20">
 
-                <div className="card w-96 shadow-md bg-[#F9FAFC]">
+                <div className="card max-w-96 shadow-md bg-[#F9FAFC]">
                     <div className="card-body">
                         <div className="space-y-2">
                             <h2 className="text-2xl font-bold">Starter</h2>
@@ -36,17 +36,17 @@ const PricingCard = () => {
                             </li>
                             
                         </ul>
-                        <div className="mt-6">
+                        <div className="mt-auto pt-6">
                             <button className="btn btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Subscribe</button>
                         </div>
                     </div>
                 </div>
 
                 
-                <div className="card w-96 shadow-md bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white relative">
+                <div className="card max-w-96 shadow-md bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white relative">
                     <div className="card-body">
 
-                        <span class="badge badge-xs badge-warning absolute -top-2 left-1/2 -translate-x-1/2 py-2.5 px-4 font-bold text-[14px] bg-[#FEF3C6] text-[#BB4D00] rounded-full border-none ">Most Popular</span>
+                        <span className="badge badge-xs badge-warning absolute -top-2 left-1/2 -translate-x-1/2 py-2.5 px-4 font-bold text-[14px] bg-[#FEF3C6] text-[#BB4D00] rounded-full border-none ">Most Popular</span>
 
                         <div className="space-y-2">
                             <h2 className="text-2xl font-bold">Pro</h2>
@@ -80,14 +80,14 @@ const PricingCard = () => {
                             </li>
                             
                         </ul>
-                        <div className="mt-6">
+                        <div className="mt-auto pt-6">
                             <button className="btn btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Subscribe</button>
                         </div>
                     </div>
                 </div>
 
 
-                <div className="card w-96 shadow-md bg-[#F9FAFC]">
+                <div className="card max-w-96 shadow-md bg-[#F9FAFC]">
                     <div className="card-body">
                         <div className="space-y-2">
                             <h2 className="text-2xl font-bold">Enterprise</h2>
@@ -121,7 +121,7 @@ const PricingCard = () => {
                             </li>
                             
                         </ul>
-                        <div className="mt-6">
+                        <div className="mt-auto pt-6">
                             <button className="btn btn-block rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Subscribe</button>
                         </div>
                     </div>

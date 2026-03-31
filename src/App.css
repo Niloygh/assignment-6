@@ -10,3 +10,16 @@
 .light-white{
     color: rgba(255, 255, 255, 0.712);
 }
+
+.green{
+    color: #0A883E;
+    background-color: #DBFCE7;
+}
+.gray{
+    background-color: #E1E7FF;
+    color: #9514FA;
+}
+.yellow{
+    background-color: #FEF3C6;
+    color: #BB4D00;
+}

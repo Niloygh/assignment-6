@@ -1,7 +1,7 @@
 import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
 
-const Navbar = () => {
+const Navbar = ({selectCart}) => {
     return (
         <div className=" navbar  justify-between bg-base-100 shadow-sm">
 
@@ -41,7 +41,7 @@ const Navbar = () => {
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
                         <div className="indicator">
                             <CiShoppingCart className='text-2xl' />
-                            <span className="badge badge-sm indicator-item ">0</span>
+                            <span className="badge badge-sm indicator-item ">{selectCart.length}</span>
                         </div>
                     </div>
 

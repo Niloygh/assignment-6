@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar selectCart={selectCart}/>
       <Banner />
       <Rating />
 
@@ -45,7 +45,7 @@ function App() {
         <input type="radio" name="my_tabs_1" 
         onClick={()=> setActiveTab('cart')}
         className={`tab rounded-full w-40 font-semibold  ${activeTab === 'cart' && 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white'}`} 
-        aria-label="Cart (0)" />
+        aria-label={`Cart (${selectCart.length})`} />
       </div>
 
       {activeTab === "product" ? <Products cartPromise={cartPromise} selectCart={selectCart} setSelectCart={setSelectCart} /> : <Cart selectCart={selectCart} setSelectCart={setSelectCart} />}

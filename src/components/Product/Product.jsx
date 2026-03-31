@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { IoIosCheckmark } from 'react-icons/io';
+import { toast } from 'react-toastify';
 
 const Product = ({cart, selectCart, setSelectCart}) => {
     const [buy, setBuy] = useState(false)
@@ -7,7 +8,14 @@ const Product = ({cart, selectCart, setSelectCart}) => {
     const handleBuy = () => {
         setBuy(true)
 
+    const ifFound = selectCart.find(item => item.id === cart.id)
+    if(ifFound){
+        toast.error('Item Already In Cart')
+        return;
+    }
+
     setSelectCart([...selectCart, cart])
+    toast.success("Added To Cart Item")
 
         
     }
@@ -15,7 +23,7 @@ const Product = ({cart, selectCart, setSelectCart}) => {
     return (
         <div key={cart.id} className='card card-body relative '>
 
-                <div className="card w-96 bg-base-100 shadow-sm h-full">
+                <div className="card max-w-96 bg-base-100 shadow-sm h-full">
                     <div className="card-body space-y-4">
                         <span className={`badge badge-xs ${cart.tag === 'New' ? 'green' : cart.tag === 'Popular' ? 'gray' : 'yellow'} absolute right-5 top-3 font-semibold text-[14px]  `}>{cart.tag}</span>
                         <div className="justify-between space-y-4">

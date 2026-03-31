@@ -18,10 +18,11 @@ const cartsData = async() => {
 const cartPromise = cartsData()
 
 function App() {
-
-
   const [activeTab, setActiveTab] = useState('product')
   // console.log(activeTab)
+
+  const [selectCart, setSelectCart] = useState([])
+  console.log(selectCart)
 
   return (
     <>
@@ -47,7 +48,7 @@ function App() {
         aria-label="Cart (0)" />
       </div>
 
-      {activeTab === "product" ? <Products cartPromise={cartPromise} /> : <Cart />}
+      {activeTab === "product" ? <Products cartPromise={cartPromise} selectCart={selectCart} setSelectCart={setSelectCart} /> : <Cart selectCart={selectCart} setSelectCart={setSelectCart} />}
 
       
       
